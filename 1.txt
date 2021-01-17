@@ -1,0 +1,4746 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/modal_popup.css">
+    <link rel="stylesheet" href="assets/css/togglebutton.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <title>Main Screen</title>
+
+</head>
+<body>
+  <div class="container-fluid header">
+    <div class="row py-2">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center text-md-center ml-3 mt-1">
+          <a href="index.html"> <img src="assets/images/logo.png" class="img-fluid logo"/></a>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ml-auto mr-3">
+           <div class="row d-flex align-items-center justify-content-start justify-content-md-end mt-3 top-nav">
+              <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex align-items-end justify-content-around pb-3 mt-5 my-auto"><p class="my-auto small-password-text">My Password</p>  <i class="fa fa-star fav" aria-hidden="true"></i></div>
+              <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex align-items-end justify-content-center pb-3 mt-3 my-auto"> <a href="#" class="btn-add-new" data-toggle="modal" data-target="#myModal"  data-backdrop="static">ADD NEW</a>  </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-end justify-content-center justify-content-md-start pb-3 mt-3  my-auto flex-wrap  my-auto name-icon"><p class="d-block"><span class="ico">VB</span> <span class="hello-txt">Hello</span> <span class="user-name">Mr, Vinay Basu</span> </p> </div>
+              <!-- <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-end justify-content-center justify-content-md-start pb-3 mt-3  my-auto flex-wrap  my-auto name-icon">Logout</div>  -->
+            </div> 
+        
+        </div>             
+    </div>
+ </div>
+ <!-- end header -->
+  
+ <!-- start form and password container-->
+      <div class="row pt-5 pb-5 mx-auto w-75 my-auto">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 text-center text-lg-left"><h2 class="password-heading">Passwords</h2></div>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ml-auto my-auto p-0 m-0">
+                  <form class="w-100 p-0 m-0">
+                       <div class="form-group has-search">
+                           <span class="fa fa-search form-control-feedback"></span>
+                               <input type="text" class="form-control input p-4 rounded search-input"  placeholder="Search Icon">
+                       </div>
+                      </form>
+                    </div>
+              
+      </div>
+<!-- end form and password container-->
+
+
+<!-- start menu container-->
+<div class="row mx-auto w-75 function-container mt-5">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-left">
+      <div class="row d-flex align-items-center justify-content-start flex-nowrap horizontal-scrollable">
+           <div class="m-2  px-2 pt-2 text-center">
+              <div class="m-0 p-0 edit-main">
+                <div class="edit"></div>
+                <div class="main"><img src="assets/images/all.png"></div>
+              </div>
+              <div class="card-name mt-4"><a href="#"  class="list-item-active"> All</a></div>
+           </div>
+           <div class="m-2 px-2 pt-2 text-center">
+              <div class="m-0 p-0  edit-main">
+                <div class="edit"><a href="#"  data-toggle="modal" data-target="#edit-password-model" class="pb-3" data-backdrop="static"><img src="assets/images/edit@1x.png"></a></div>
+                <div class="main"><img src="assets/images/card.png"></div>
+                <div class="lock"><img src="assets/images/lock@1x.png"></div>               
+              </div>
+              <div class="card-name mt-4"><a href="#"  class="list-item"> Cards</a></div>
+           </div>
+           <div class="m-2 px-2 pt-2 text-center">
+            <div class="m-0 p-0 edit-main">
+              <div class="edit"><a href="#"  data-toggle="modal" data-target="#edit-password-model" class="pb-3" data-backdrop="static"><img src="assets/images/edit@1x.png"></a></div>
+              <div class="main"><img src="assets/images/web.png"></div>
+              <div class="lock"><img src="assets/images/unlock@1x.png"></div>               
+            </div>
+            <div class="card-name mt-4"><a href="#"  class="list-item"> Website</a></div>
+           </div>
+           <div class="m-2 px-2 pt-2 text-center">
+            <div class="m-0 p-0 edit-main">
+              <div class="edit"><a href="#" data-toggle="modal" data-target="#edit-password-model" class="pb-3" data-backdrop="static"><img src="assets/images/edit@1x.png"></a></div>
+              <div class="main"><img src="assets/images/bank.png"></div>
+              <div class="lock"><img src="assets/images/lock@1x.png"></div>               
+            </div>
+            <div class="card-name mt-4"><a href="#"  class="list-item"> Banks</a></div>
+           </div>
+           <div class="m-2 pt-2 text-center">
+               <div class="m-0 p-0 edit-main">
+                <div class="edit"></div>
+                <div class="main"><a href="#"  data-toggle="modal" data-target="#myModal" class="pb-3" data-backdrop="static"><img src="assets/images/add.png"></a></div>
+                <div class="lock"></div>               
+              </div>
+              <div class="card-name mt-4"><a href="#"  class="list-item"> Add</a></div>
+           </div>
+     </div>
+ </div>   
+</div> 
+
+<!-- end menu container-->
+
+
+
+<!-- start menu container-->
+<div class="row mx-auto w-75 my-5">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <div class="row transition">
+
+      <div class="transition-item">
+        <div class="mb-4 d-flex align-items-center justify-content-start">
+          <img src="assets/images/axis_bank.png">
+          <i class="fa fa-star fav" aria-hidden="true"></i>
+        </div>
+        <div>
+          <div class="p-0"> 
+            <p class="function-item">Axis Bank</p> 
+            <p class="function-user-details">99999999999</p></div>
+        </div>
+      </div>
+      <div class="transition-item">
+        <div class="mb-4 p-0 d-flex align-items-start justify-content-start">
+          <div><img src="assets/images/Netflix.png"></div>
+          <div class="m-0 p-0"><i class="fa fa-star fav" aria-hidden="true"></i></div>
+        </div>
+        <div>
+        <div class="p-0"> 
+          <p class="function-item">Netflix</p> 
+          <p class="function-user-details"> harsh@gmaill.com</p></div>
+      </div>
+      </div>
+      <div class="transition-item">
+        <div class="mb-4 d-flex align-items-center justify-content-start">
+          <img src="assets/images/hotstar.png">
+          <i class="fa fa-star fav" aria-hidden="true"></i>
+        </div>
+        <div>
+          <div class="p-0"> 
+            <p class="function-item">Hotstar</p> 
+            <p class="function-user-details"> harsh@gmaill.com</p></div>
+        </div>
+        </div>
+      <div class="transition-item">
+        <div class="mb-4 d-flex align-items-center justify-content-start">
+          <img src="assets/images/google.png">
+          <i class="fa fa-star fav" aria-hidden="true"></i>
+        </div>
+        <div>
+          <div class="p-0"> 
+            <p class="function-item">Google</p> 
+            <p class="function-user-details">harsh@gmaill.com</p></div>
+        </div>
+        </div>
+
+
+
+        <div class="transition-item">
+          <div class="mb-4 d-flex align-items-center justify-content-start">
+            <img src="assets/images/google.png">
+            <i class="fa fa-star fav" aria-hidden="true"></i>
+          </div>
+          <div>
+            <div class="p-0"> 
+              <p class="function-item">Google</p> 
+              <p class="function-user-details">harsh@gmaill.com</p></div>
+          </div>
+          </div>
+
+
+
+          <div class="transition-item">
+            <div class="mb-4 d-flex align-items-center justify-content-start">
+              <img src="assets/images/hotstar.png">
+              <i class="fa fa-star fav" aria-hidden="true"></i>
+            </div>
+            <div>
+              <div class="p-0"> 
+                <p class="function-item">Hotstar</p> 
+                <p class="function-user-details"> harsh@gmaill.com</p></div>
+            </div>
+            </div>
+
+
+            <div class="transition-item">
+              <div class="mb-4 d-flex align-items-center justify-content-start">
+                <img src="assets/images/google.png">
+                <i class="fa fa-star fav" aria-hidden="true"></i>
+              </div>
+              <div>
+                <div class="p-0"> 
+                  <p class="function-item">Google</p> 
+                  <p class="function-user-details">harsh@gmaill.com</p></div>
+              </div>
+              </div>
+
+
+              <div class="transition-item">
+                <div class="mb-4 d-flex align-items-center justify-content-start">
+                  <img src="assets/images/hotstar.png">
+                  <i class="fa fa-star fav" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <div class="p-0"> 
+                    <p class="function-item">Hotstar</p> 
+                    <p class="function-user-details"> harsh@gmaill.com</p></div>
+                </div>
+                </div>
+
+
+                <div class="transition-item">
+                  <div class="mb-4 d-flex align-items-center justify-content-start">
+                    <img src="assets/images/hotstar.png">
+                    <i class="fa fa-star fav" aria-hidden="true"></i>
+                  </div>
+                  <div>
+                    <div class="p-0"> 
+                      <p class="function-item">Hotstar</p> 
+                      <p class="function-user-details"> harsh@gmaill.com</p></div>
+                  </div>
+                  </div>
+
+
+                  <div class="transition-item">
+                    <div class="mb-4 d-flex align-items-center justify-content-start">
+                      <img src="assets/images/axis_bank.png">
+                      <i class="fa fa-star fav" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                      <div class="p-0"> 
+                        <p class="function-item">Axis Bank</p> 
+                        <p class="function-user-details">99999999999</p></div>
+                    </div>
+                  </div>
+                  <div class="transition-item">
+                    <div class="mb-4 d-flex align-items-center justify-content-start">
+                      <img src="assets/images/Netflix.png">
+                      <i class="fa fa-star fav" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                    <div class="p-0"> 
+                      <p class="function-item">Netflix</p> 
+                      <p class="function-user-details"> harsh@gmaill.com</p></div>
+                  </div>
+                  </div>
+
+                  <div class="transition-item">
+                    <div class="mb-4 d-flex align-items-center justify-content-start">
+                      <img src="assets/images/hotstar.png">
+                      <i class="fa fa-star fav" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                      <div class="p-0"> 
+                        <p class="function-item">Hotstar</p> 
+                        <p class="function-user-details"> harsh@gmaill.com</p></div>
+                    </div>
+                    </div>
+
+
+                    <div class="transition-item">
+                      <div class="mb-4 d-flex align-items-center justify-content-start">
+                        <img src="assets/images/google.png">
+                        <i class="fa fa-star fav" aria-hidden="true"></i>
+                      </div>
+                      <div>
+                        <div class="p-0"> 
+                          <p class="function-item">Google</p> 
+                          <p class="function-user-details">harsh@gmaill.com</p></div>
+                      </div>
+                      </div>
+
+
+                      <div class="transition-item">
+                        <div class="mb-4 d-flex align-items-center justify-content-start">
+                          <img src="assets/images/google.png">
+                          <i class="fa fa-star fav" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                          <div class="p-0"> 
+                            <p class="function-item">Google</p> 
+                            <p class="function-user-details">harsh@gmaill.com</p></div>
+                        </div>
+                        </div>
+
+
+                        <div class="transition-item">
+                          <div class="mb-4 d-flex align-items-center justify-content-start">
+                            <img src="assets/images/hotstar.png">
+                            <i class="fa fa-star fav" aria-hidden="true"></i>
+                          </div>
+                          <div>
+                            <div class="p-0"> 
+                              <p class="function-item">Hotstar</p> 
+                              <p class="function-user-details"> harsh@gmaill.com</p></div>
+                          </div>
+                          </div>
+
+
+                          
+                    <div class="transition-item">
+                      <div class="mb-4 d-flex align-items-center justify-content-start">
+                        <img src="assets/images/google.png">
+                        <i class="fa fa-star fav" aria-hidden="true"></i>
+                      </div>
+                      <div>
+                        <div class="p-0"> 
+                          <p class="function-item">Google</p> 
+                          <p class="function-user-details">harsh@gmaill.com</p></div>
+                      </div>
+                      </div>
+
+    </div>
+  </div>
+ 
+<!-- end menu container-->
+
+
+<!-- add select popup -->
+  <!-- Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modalCenter">
+    
+      <!-- Modal content-->
+      <div class="modal-dialog modal-md edit-model">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="text-center mx-auto p-0 m-0 w-100">
+             <h6 class="modal-title">Add New</h6>
+          </div>
+         
+           <div class="ml-auto"><img src="assets/images/close.png" data-dismiss="modal"/></div>
+      </div>
+        <div class="modal-body text-center py-5">
+            <div class="form-group pb-2">
+                <div class="d-flex flex-column flex-sm-row justify-content-around align-items-center">
+                  <div class="p-5 p-md-5 mb-2 add-new" id="select-template" onclick="location.href='passwords.html';" style="cursor: pointer;"><a href="passwords.html" class="list-item"><img src="assets/images/select_templates.png" class="pb-2"></a><p> <a href="passwords.html" class="modal-text" onclick="location.href='#add_category';" data-toggle="modal" data-target="#add_category" style="cursor: pointer;">Select Template </a></p></div>
+                  <div class="p-5 p-md-5 mb-2 add-new" id="add-category"  onclick="location.href='#add_category';" data-toggle="modal" data-target="#add_category" style="cursor: pointer;"><a href="#add_category" data-toggle="modal" data-target="#add_category" class="pb-3" data-backdrop="static"> <img src="assets/images/add_category.png" class="pb-2" onclick="location.href='#add_category';" data-toggle="modal" data-target="#add_category" style="cursor: pointer;"></a>  <p onclick="location.href='#add_category';" data-toggle="modal" data-target="#add_category" style="cursor: pointer;"><a href="#" data-toggle="modal" data-target="#add_category" class="modal-text" data-backdrop="static"> Add Category </a></p></div>
+                </div>
+
+               </div>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- end select popup -->
+
+
+<!-- add Account popup -->
+   <!-- Modal -->
+   <div class="modal" id="add_category">
+    <div class="modal-dialog modalCenter">
+    
+      <!-- Modal content-->
+      <div class="modal-dialog modal-md edit-model" style="width:369px">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="text-center mx-auto p-0 m-0 w-100">
+             <h6 class="modal-title">Add/Assign Category</h6>
+          </div>
+         
+           <div class="ml-auto"><img src="assets/images/close.png" data-dismiss="modal"/></div>
+      </div>
+        <div class="modal-body text-center pb-3">
+          <form action="#" autocomplete="off" autofill="off">
+            <div class="form-group  p-1">
+         <img src="assets/images/photo_upload_1.png"/>
+        </div>
+         <div class="form-group">
+            <select  name="sources" id="sources" class="custom-select sources" placeholder="Source Type">
+                <option value="0">Name Of Category</option>
+                <option value="1">Category 1</option>
+                <option value="2">Category 2</option>
+                <option value="3">Category 3</option>
+              </select>
+          </div>
+              <div class="form-group">
+                <div class="d-flex justify-content-between">
+                    <div class="my-auto py-auto pl-2 modal-add-password-text">Add password </div>
+                    <div><label class="switch">
+                        <input type="checkbox" id="togglePassword">
+                        <span class="slider round"></span>
+                      </label>
+                      </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control model-input p-1 toggle-password" id="password" placeholder="Enter Password" autocomplete="off" autofill="off" required>
+                <span toggle="#password" class="fa fa-eye-slash text-white field-icon1 toggle-password"></span>
+              </div>
+              <div class="form-group">
+                <button class="d-block w-100 save-button  w-75 btn-edit">SAVE</button>
+               </div>
+               </form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- end account popup -->
+
+<!-- edit Account popup -->
+  <!-- Modal -->
+  <div class="modal" id="edit-password-model">
+  
+    <div class="modal-dialog modalCenter">
+      <div>
+      <!-- Modal content-->
+      <div class="modal-dialog modal-md edit-model" style="width:369px">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="text-center mx-auto p-0 m-0 w-100">
+             <h6 class="modal-title">Edit</h6>
+          </div>
+         
+           <div class="ml-auto"><img src="assets/images/close.png" data-dismiss="modal"/></div>
+      </div>
+        <div class="modal-body text-center">
+          <form action="#" autocomplete="off" autofill="off" autocomplete="off">
+            <div class="form-group px-3  p-3 pb-4">
+         <img src="assets/images/photo_edit.png"/>
+        </div>
+         <div class="form-group pb-0">
+            <input type="text" class="form-control model-input w-75" id="websitename" placeholder="Website Password" autocomplete="off">
+          </div>
+              <div class="form-group">
+                <div class="d-flex justify-content-between">
+                    <div class="my-auto py-auto pl-2 modal-add-password-text">Add password </div>
+                    <div><label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                      </label>
+                      </div>
+                </div>
+            </div>          
+              <div class="form-group pb-1">
+                <button class="d-block w-100 save-button p-2 w-75 btn-edit">SAVE CHANGE</button>
+               </div>
+               </form>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- end account popup -->
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/script.js"></script>    
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/modal_popup.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <title>Main Screen</title>
+
+</head>
+<body>
+  <div class="container-fluid header">
+    <div class="row py-2">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center text-md-center ml-3 mt-1">
+          <a href="index.html"> <img src="assets/images/logo.png" class="img-fluid logo"/></a>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ml-auto mr-3">
+           <div class="row d-flex align-items-center justify-content-start justify-content-md-end mt-3 top-nav">
+              <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex align-items-end justify-content-around pb-3 mt-3 my-auto"><p class="my-auto small-password-text">My Password</p> <i class="fa fa-star fav d-none d-md-block d-lg-block" aria-hidden="true"></i> </div>
+              <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex align-items-end justify-content-center pb-3 mt-3 my-auto"><a href="#" class="btn-add-new" data-toggle="modal" data-target="#myModal"  class="list-item" data-backdrop="static">ADD NEW</a></div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-end justify-content-center justify-content-md-start pb-3 mt-3  my-auto flex-wrap  my-auto name-icon"><p class="d-block"><span class="ico">VB</span> <span class="hello-txt">Hello</span> <span class="user-name">Mr, Vinay Basu</span> </p> </div>
+           </div> 
+        
+        </div>             
+    </div>
+ </div>
+ <!-- end header -->
+  
+ <!-- start form and password container-->
+      <div class="row pt-5 pb-5 mx-auto w-75 my-auto">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 text-center text-lg-left"><h2 class="password-heading">Passwords</h2></div>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ml-auto my-auto p-0 m-0">
+                  <form class="w-100 p-0 m-0">
+                       <div class="form-group has-search">
+                           <span class="fa fa-search form-control-feedback"></span>
+                               <input type="text" class="form-control input p-4 rounded search-input"  placeholder="Search Icon">
+                       </div>
+                      </form>
+                    </div>
+              
+      </div>
+<!-- end form and password container-->
+
+
+<!-- start menu container-->
+<div class="row mx-auto w-75 function-container mt-5">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-left">
+      <div class="row d-flex align-items-center justify-content-start flex-nowrap horizontal-scrollable">
+           <div class="m-2  px-2 pt-2 text-center">
+              <div class="m-0 p-0 edit-main">
+                <div class="edit"></div>
+                <div class="main"><img src="assets/images/all.png"></div>
+              </div>
+              <div class="card-name mt-4"><a href="#"  class="list-item-active"> All</a></div>
+           </div>
+           <div class="m-2 px-2 pt-2 text-center">
+              <div class="m-0 p-0  edit-main">
+                <div class="edit"><a href="#"  data-toggle="modal" data-target="#edit-password-model" class="pb-3" data-backdrop="static"><img src="assets/images/edit@1x.png"></a></div>
+                <div class="main"><img src="assets/images/card.png"></div>
+                <div class="lock"><img src="assets/images/lock@1x.png"></div>               
+              </div>
+              <div class="card-name mt-4"><a href="#"  class="list-item"> Cards</a></div>
+           </div>
+           <div class="m-2 px-2 pt-2 text-center">
+            <div class="m-0 p-0 edit-main">
+              <div class="edit"><a href="#"  data-toggle="modal" data-target="#edit-password-model" class="pb-3" data-backdrop="static"><img src="assets/images/edit@1x.png"></a></div>
+              <div class="main"><img src="assets/images/web.png"></div>
+              <div class="lock"><img src="assets/images/lock@1x.png"></div>               
+            </div>
+            <div class="card-name mt-4"><a href="#"  class="list-item"> Website</a></div>
+           </div>
+           <div class="m-2 px-2 pt-2 text-center">
+            <div class="m-0 p-0 edit-main">
+              <div class="edit"><a href="#" data-toggle="modal" data-target="#edit-password-model" class="pb-3" data-backdrop="static"><img src="assets/images/edit@1x.png"></a></div>
+              <div class="main"><img src="assets/images/bank.png"></div>
+              <div class="lock"><img src="assets/images/lock@1x.png"></div>               
+            </div>
+            <div class="card-name mt-4"><a href="#"  class="list-item"> Banks</a></div>
+           </div>
+           <div class="m-2 pt-2 text-center">
+               <div class="m-0 p-0 edit-main">
+                <div class="edit"></div>
+                <div class="main"><a href="#"  data-toggle="modal" data-target="#myModal" class="pb-3" data-backdrop="static"><img src="assets/images/add.png"></a></div>
+                <div class="lock"></div>               
+              </div>
+              <div class="card-name mt-4"><a href="#"  class="list-item"> Add</a></div>
+           </div>
+     </div>
+ </div>   
+</div> 
+
+<!-- end menu container-->
+
+
+<!-- start menu container-->
+<div class="row mx-auto w-75 my-5">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <div class="row transition">
+
+      <div class="transition-item">
+        <div class="mb-4 d-flex align-items-center justify-content-around">
+          <img src="assets/images/axis_bank.png">
+          
+          <i class="fa fa-star fav" aria-hidden="true"></i>
+        </div>
+        <div>
+          <div class="p-0"> 
+            <p class="function-item">Axis Bank</p> 
+            <p class="function-user-details">99999999999</p></div>
+        </div>
+      </div>
+      <div class="transition-item">
+        <div class="mb-4 d-flex align-items-center justify-content-around">
+          <img src="assets/images/Netflix.png">
+          <i class="fa fa-star fav" aria-hidden="true"></i>
+        </div>
+        <div>
+        <div class="p-0"> 
+          <p class="function-item">Netflix</p> 
+          <p class="function-user-details"> harsh@gmaill.com</p></div>
+      </div>
+      </div>
+      <div class="transition-item">
+        <div class="mb-4 d-flex align-items-center justify-content-around">
+          <img src="assets/images/hotstar.png">
+          <i class="fa fa-star fav" aria-hidden="true"></i>
+        </div>
+        <div>
+          <div class="p-0"> 
+            <p class="function-item">Hotstar</p> 
+            <p class="function-user-details"> harsh@gmaill.com</p></div>
+        </div>
+        </div>
+      <div class="transition-item">
+        <div class="mb-4 d-flex align-items-center justify-content-around">
+          <img src="assets/images/google.png">
+          <i class="fa fa-star fav" aria-hidden="true"></i>
+        </div>
+        <div>
+          <div class="p-0"> 
+            <p class="function-item">Google</p> 
+            <p class="function-user-details">harsh@gmaill.com</p></div>
+        </div>
+        </div>
+
+
+
+        <div class="transition-item">
+          <div class="mb-4 d-flex align-items-center justify-content-around">
+            <img src="assets/images/google.png">
+            <i class="fa fa-star fav" aria-hidden="true"></i>
+          </div>
+          <div>
+            <div class="p-0"> 
+              <p class="function-item">Google</p> 
+              <p class="function-user-details">harsh@gmaill.com</p></div>
+          </div>
+          </div>
+
+
+
+          <div class="transition-item">
+            <div class="mb-4 d-flex align-items-center justify-content-around">
+              <img src="assets/images/hotstar.png">
+              <i class="fa fa-star fav" aria-hidden="true"></i>
+            </div>
+            <div>
+              <div class="p-0"> 
+                <p class="function-item">Hotstar</p> 
+                <p class="function-user-details"> harsh@gmaill.com</p></div>
+            </div>
+            </div>
+
+
+            <div class="transition-item">
+              <div class="mb-4 d-flex align-items-center justify-content-around">
+                <img src="assets/images/google.png">
+                <i class="fa fa-star fav" aria-hidden="true"></i>
+              </div>
+              <div>
+                <div class="p-0"> 
+                  <p class="function-item">Google</p> 
+                  <p class="function-user-details">harsh@gmaill.com</p></div>
+              </div>
+              </div>
+
+
+              <div class="transition-item">
+                <div class="mb-4 d-flex align-items-center justify-content-around">
+                  <img src="assets/images/hotstar.png">
+                  <i class="fa fa-star fav" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <div class="p-0"> 
+                    <p class="function-item">Hotstar</p> 
+                    <p class="function-user-details"> harsh@gmaill.com</p></div>
+                </div>
+                </div>
+
+
+                <div class="transition-item">
+                  <div class="mb-4 d-flex align-items-center justify-content-around">
+                    <img src="assets/images/hotstar.png">
+                    <i class="fa fa-star fav" aria-hidden="true"></i>
+                  </div>
+                  <div>
+                    <div class="p-0"> 
+                      <p class="function-item">Hotstar</p> 
+                      <p class="function-user-details"> harsh@gmaill.com</p></div>
+                  </div>
+                  </div>
+
+
+                  <div class="transition-item">
+                    <div class="mb-4 d-flex align-items-center justify-content-around">
+                      <img src="assets/images/axis_bank.png">
+                      <i class="fa fa-star fav" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                      <div class="p-0"> 
+                        <p class="function-item">Axis Bank</p> 
+                        <p class="function-user-details">99999999999</p></div>
+                    </div>
+                  </div>
+                  <div class="transition-item">
+                    <div class="mb-4 d-flex align-items-center justify-content-around">
+                      <img src="assets/images/Netflix.png">
+                      <i class="fa fa-star fav" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                    <div class="p-0"> 
+                      <p class="function-item">Netflix</p> 
+                      <p class="function-user-details"> harsh@gmaill.com</p></div>
+                  </div>
+                  </div>
+
+                  <div class="transition-item">
+                    <div class="mb-4 d-flex align-items-center justify-content-around">
+                      <img src="assets/images/hotstar.png">
+                      <i class="fa fa-star fav" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                      <div class="p-0"> 
+                        <p class="function-item">Hotstar</p> 
+                        <p class="function-user-details"> harsh@gmaill.com</p></div>
+                    </div>
+                    </div>
+
+
+                    <div class="transition-item">
+                      <div class="mb-4 d-flex align-items-center justify-content-around">
+                        <img src="assets/images/google.png">
+                        <i class="fa fa-star fav" aria-hidden="true"></i>
+                      </div>
+                      <div>
+                        <div class="p-0"> 
+                          <p class="function-item">Google</p> 
+                          <p class="function-user-details">harsh@gmaill.com</p></div>
+                      </div>
+                      </div>
+
+
+                      <div class="transition-item">
+                        <div class="mb-4 d-flex align-items-center justify-content-around">
+                          <img src="assets/images/google.png">
+                          <i class="fa fa-star fav" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                          <div class="p-0"> 
+                            <p class="function-item">Google</p> 
+                            <p class="function-user-details">harsh@gmaill.com</p></div>
+                        </div>
+                        </div>
+
+
+                        <div class="transition-item">
+                          <div class="mb-4 d-flex align-items-center justify-content-around">
+                            <img src="assets/images/hotstar.png">
+                            <i class="fa fa-star fav" aria-hidden="true"></i>
+                          </div>
+                          <div>
+                            <div class="p-0"> 
+                              <p class="function-item">Hotstar</p> 
+                              <p class="function-user-details"> harsh@gmaill.com</p></div>
+                          </div>
+                          </div>
+
+
+                          
+                    <div class="transition-item">
+                      <div class="mb-4 d-flex align-items-center justify-content-around">
+                        <img src="assets/images/google.png">
+                        <i class="fa fa-star fav" aria-hidden="true"></i>
+                      </div>
+                      <div>
+                        <div class="p-0"> 
+                          <p class="function-item">Google</p> 
+                          <p class="function-user-details">harsh@gmaill.com</p></div>
+                      </div>
+                      </div>
+
+    </div>
+  </div>
+ 
+<!-- end menu container-->
+
+<!-- add select popup -->
+  <!-- Modal -->
+  <!-- <div class="modal" id="myModal">
+    <div class="modal-dialog modalCenter"> -->
+    
+      <!-- Modal content-->
+      <!-- <div class="modal-dialog modal-md edit-model">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="text-center mx-auto p-0 m-0 w-100">
+             <h6 class="modal-title">Add New</h6>
+          </div>
+         
+           <div class="ml-auto"><img src="assets/images/close.png" data-dismiss="modal"/></div>
+      </div>
+        <div class="modal-body text-center py-5">
+            <div class="form-group pb-2">
+                <div class="d-flex flex-column flex-sm-row justify-content-around align-items-center">
+                  <div class="p-5 p-md-5 mb-2 add-new" id="select-template"><a href="passwords.html" class="list-item"><img src="assets/images/select_templates.png" class="pb-2"></a><p> <a href="passwords.html" class="modal-text">Select Template </a></p></div>
+                  <div class="p-5 p-md-5 mb-2 add-new" id="add-category"><a href="#" data-toggle="modal" data-target="#add_category" class="pb-3" data-backdrop="static"> <img src="assets/images/add_category.png" class="pb-2"></a>  <p><a href="#" data-toggle="modal" data-target="#add_category" class="modal-text" data-backdrop="static"> Add Category </a></p></div>
+                </div>
+
+               </div>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div> -->
+
+<!-- end select popup -->
+
+
+
+
+
+<!-- add Account popup -->
+  <!-- Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modalCenter">
+    
+      <!-- Modal content-->
+      <div class="modal-dialog modal-md w-75">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="text-center mx-auto p-0 m-0 w-100">
+             <p class="modal-title">Add Credit Card</p>
+          </div>
+         
+           <div class="ml-auto"><img src="assets/images/close.png" data-dismiss="modal"/></div>
+      </div>
+        <div class="modal-body text-center">
+          <form action="#">
+            <div class="form-group">
+         <img src="assets/images/photo_upload_1.png"/>
+        </div>
+         <div class="form-group">
+            <input type="email" class="form-control model-input" id="bankname" placeholder="Bank Name">
+          </div>
+          <div class="form-group">
+              <input type="text" class="form-control model-input" id="name-of-the-card" placeholder="Name On Card">
+            </div>
+            <div class="form-group">
+                <input type="number" class="form-control model-input" id="credit-card-number" placeholder="Credit Card Number">
+              </div>
+              <div class="form-group d-flex flex-wrap justify-content-between align-items-center">
+              <div class="col-6  p-0 m-0 pr-2"><input type="text" class="form-control  model-date-input text-white" id="from-date" placeholder="Valid From">
+                <span class="fa fa-calendar-o  field-icon1 text-white"></span>
+              </div>
+              <div class="col-6  p-0 m-0 pl-2"><input type="text" class="form-control model-date-input text-white" id="to-date" placeholder="Valid To">
+                <span class="fa fa-calendar-o field-icon1 text-white"></span>
+              </div>
+              
+              </div>
+              <div class="form-group d-flex flex-wrap justify-content-around align-items-center width-75">
+                <div class="col-6 p-0 m-0  pr-2"><input type="password" id="cvv" class="form-control model-date-input w-100 p-2" id="cvv" placeholder="CVV" maxlength="4" required>
+                  <span toggle="#cvv"class="fa fa-eye-slash text-white field-icon1 toggle-password"></span>
+                </div>
+                <div class="col-6 p-0 m-0 pl-2"> <input type="password" id="pin" class="form-control model-date-input w-100 p-2" id="pin" placeholder="Pin" maxlength="4" required>
+                  <span toggle="#pin" class="fa fa-eye-slash text-white field-icon1 toggle-password"></span>
+                </div>
+                </div>
+              <div class="form-group">
+               <button class="d-block w-100 add-field text-left btn-green"><img src="assets/images/ellipse1.png" class="mr-3"/><span>Add Field</span></button>
+               
+              </div>
+              <div class="form-group">
+                <button class="d-block w-100 save-button p-2 w-75 btn-edit">SAVE</button>
+               </div>
+               </form>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- end account popup -->
+
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
+
+
+
+
+*,
+::after,
+::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url(./gilroy/Gilroy-Light.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(./gilroy/Gilroy-Medium.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url(./gilroy/Gilroy-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-bold";
+  src: url(./gilroy/Gilroy-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url(./gilroy/Gilroy-ExtraBold.otf) format("truetype");
+  font-weight: bold;
+}
+
+p {
+  font-style: normal;
+  font-weight: lighter;
+  margin-bottom: 0 !important;
+}
+
+.password-heading {
+  font-family: "Gilroy-bold";
+  font-size: 66px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-smooth: antialiased;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  overflow-x: hidden;
+  background: #04354d;
+}
+
+.nav-top {
+  background-color: #002639;
+  padding: 0.625em;
+  text-align: center;
+}
+
+.header {
+  background: #002639;
+}
+
+.btn-login {
+  background: #04354d;
+  color: #fff;
+}
+
+.btn-login:hover {
+  color: #fff;
+}
+
+.lbltext {
+  color: #04354d;
+}
+
+.center-container {
+  margin-top: 10%;
+}
+
+/* .input{
+    background: transparent;
+    padding:0.3125em;
+    border:0.125em solid #04354d;
+    outline: none;
+    color: #000;
+}
+
+.input:focus {
+    background:transparent;
+    padding:0.3125em;
+    border:0px solid none;
+    outline: none;
+    color: #000;
+} */
+
+.fa-star {
+  position: absolute;
+  top: 7%;
+  right: 7%;
+}
+
+.fav-yellow {
+  color: #fecd69;
+}
+
+.button {
+  border-radius: 1.25em;
+  background-color: #606ac3;
+  border: 1px solid #606ac3;
+}
+
+.field-icon {
+  float: right;
+  margin-right: 1.25em;
+  margin-top: -1.875em;
+  position: relative;
+  z-index: 2;
+  color: #000;
+}
+
+.field-icon1 {
+  float: right;
+  margin-right: 1.25em;
+  margin-top: -2.1em;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+#message {
+  display: none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 0.625em;
+  margin-top: 0.625em;
+  border-radius: 0.625em;
+  width: 90%;
+  margin: 0px auto;
+}
+
+#message p {
+  padding: 0.625em 2.1875em;
+  font-size: 15px;
+}
+
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -2.1875em;
+  content: "✔";
+}
+
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -1.5625em;
+  content: "✖";
+}
+
+.btn-add-new {
+  background: transparent;
+  outline-offset: none;
+  background: #79c99a;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  color: #fff;
+  text-align: center;
+  padding: 1.25em 1.25em !important;
+}
+
+.btn-add-new:hover,
+.btn-add-new:active {
+  background: transparent;
+  outline-offset: none;
+  background: #79c99a;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  color: #fff;
+  line-height: 25px;
+  text-align: center;
+}
+
+.ico {
+  padding: 1.25em 1.25em;
+  background: #084879;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.password-text {
+  font-weight: 400;
+}
+
+.input {
+  background: transparent;
+  padding: 0.3125em;
+  border: 0.1em solid #107fb7;
+  outline: none;
+  color: #fff !important;
+  font-size: 12px;
+  font-family: "Gilroy-Regular";
+}
+
+.input:focus {
+  background: transparent;
+  padding: 0.3125em;
+  border: 0px solid none;
+  outline: none;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Gilroy-Regular";
+}
+
+.has-search .form-control {
+  padding-left: 3.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+}
+
+.has-modal-search .form-modal-control {
+  padding-left: 3.375rem;
+}
+
+.has-modal-search .form-control-modal-feedback {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+}
+
+.function-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
+
+.grid-item {
+  width: 7.5em;
+  height: 9.375em;
+  padding: 0.9375em 0.9375em;
+}
+
+.text-small {
+  font-size: 12px;
+}
+
+.save-button {
+  background: #606ac3 !important;
+  color: #fff !important;
+  padding: 0.625em;
+  border-radius: 1.875em;
+  border: 0;
+  outline: none;
+  outline-offset: 0;
+  font-family: "Gilroy-bold";
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.save-button:focus {
+  border: none;
+  outline: none;
+}
+
+.btn-green {
+  border: none;
+  outline: none;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+}
+
+.btn-green:focus {
+  border: none;
+  outline: none;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+}
+
+.password-heading {
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+.horizontal-scrollable {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 1.25em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 1.25em;
+  border: 0.375em solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
+.credit-card-background {
+  background-color: #00b8e2;
+  border-radius: 1.25em;
+}
+
+.card-no {
+  font-size: 1.25em;
+}
+
+.credit-card-details-steps {
+  background: #084879;
+}
+
+.small-heading {
+  font-weight: 600;
+}
+
+input[type="date"] {
+  color: #fff;
+  font-weight: 100;
+}
+
+input[type="password"] {
+  font-size: 0.8125em;
+}
+
+.toggleButton {
+  width: 100px;
+  height: 100px;
+  background-color: #d7666e;
+  border-radius: 50%;
+}
+
+.moveToRight100px {
+  margin-left: 100px;
+}
+
+.toggleButton {
+  transition: 1s ease;
+}
+
+.custom-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("./arrow_down.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  margin-right: 2rem;
+}
+
+.custom-select {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #206fac !important;
+  background-color: #04354d !important;
+  color: #fff !important;
+  z-index: 10;
+  line-height: 30px;
+  height: 55px;
+  border-radius: 5px;
+}
+
+.custom-select > option {
+  padding: 5px 5px !important;
+}
+
+.add-new {
+  background: #084779;
+  border-radius: 20px;
+}
+
+.alert-msg {
+  background: #89c393;
+  color: #fff;
+  border-radius: 20px;
+  display: block;
+}
+
+.alert-msg-hide {
+  display: none;
+}
+
+.password {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-column-gap: 1em;
+  grid-row-gap: 1.5em;
+}
+
+.password-item {
+  width: 100%;
+  height: 11em;
+  padding: 15px 15px;
+  background: #084879;
+  border-radius: 1.25em;
+}
+
+.web-accounts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-column-gap: 1em;
+  grid-row-gap: 1.5em;
+}
+
+.web-accounts-item {
+  width: 100%;
+  height: 5em;
+  padding: 15px 15px;
+  background: #084879;
+  border-radius: 1.25em;
+}
+
+.small-heading-text {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.trim-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.datetime1 {
+  background: "#fff" !important;
+  color: #fff !important;
+  margin-bottom: 12px !important;
+}
+
+.cvv,
+.pin {
+  background: "#fff" !important;
+  color: #fff !important;
+  margin-top: -7px !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  border-width: thin;
+}
+
+.has-calender {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+}
+
+/* .fav{
+       background-image: url("../images/yello_heart_img.png");
+} */
+
+.edit-main {
+  position: relative;
+}
+
+.edit {
+  position: absolute;
+  top: -15%;
+  right: 3%;
+}
+
+.main {
+  height: 87px;
+  width: 86px;
+}
+
+.lock {
+  position: absolute;
+  bottom: -15%;
+  right: 30%;
+}
+
+a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+a:hover,
+a:active {
+  color: #fff !important;
+  text-decoration: none !important;
+  outline: none;
+  border: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none !important;
+  box-shadow: none;
+  border: none;
+}
+
+*:focus,
+*:active,
+a:active,
+a:focus,
+input:focus,
+input:active {
+  -moz-outline-style: none !important;
+  outline: none !important;
+  outline: 0 !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #ffffff !important;
+  -webkit-box-shadow: 0 0 0px 1000px #002639 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+@media (min-width: 300px) {
+  .logo {
+    margin-left: 0;
+  }
+
+  .fa-heart-o {
+    font-size: 15px !important;
+    font-weight: 300 !important;
+  }
+
+  .password-heading {
+    font-family: "Gilroy-bold";
+    font-size: 30px;
+  }
+
+  .password-protected-form {
+    width: 50% !important;
+    color: #000;
+  }
+
+  .small-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 15px !important;
+  }
+
+  .hello-txt {
+    font-family: "Gilroy-Bold";
+    font-weight: 15px !important;
+  }
+
+  .user-name {
+    font-family: "Gilroy-Regular";
+    font-weight: 9px !important;
+  }
+
+  .btn-add-new {
+    background: transparent;
+    outline-offset: none;
+    padding: 0.9375em 0.9375em;
+    background: #79c99a;
+    border-radius: 1.5625em;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: "Gilroy-bold";
+    font-size: 15px !important;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .ico {
+    font-family: "Gilroy-Medium";
+    font-size: 15px;
+  }
+
+  .list-item-active {
+    font-family: "Gilroy-Medium";
+    font-size: 13px;
+    color: #fff !important;
+  }
+
+  .list-item {
+    font-family: "Gilroy-Medium";
+    font-size: 13px;
+    color: #677983 !important;
+  }
+
+  .function-item {
+    font-family: "Gilroy-Medium";
+    font-size: 12px;
+  }
+
+  .function-user-details {
+    font-family: "Gilroy-Regular";
+    font-size: 12px;
+  }
+
+  .password-protected-form {
+    width: 50% !important;
+    color: #000;
+  }
+
+  .btn-add-new {
+    background: transparent;
+    outline-offset: none;
+    padding: 0.9375em 0.9375em !important;
+    background: #79c99a;
+    border-radius: 1.5625em;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 0.9375em;
+    text-align: center;
+  }
+
+  .save-button {
+    background: #606ac3 !important;
+    color: #fff !important;
+    padding: 0.625em;
+    border-radius: 1.875em;
+    border: 0;
+    outline: none;
+    outline-offset: 0;
+    font-family: "Gilroy-bold";
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  input[type="password"] {
+    font-size: 1.2em;
+  }
+
+  #message p {
+    padding: 0.5em 2em;
+    font-size: 1.05em;
+  }
+
+  .transition {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6.875em, 1fr));
+    grid-column-gap: 2.2em;
+    grid-row-gap: 1em;
+  }
+
+  .transition-item {
+    width: 8.75em;
+    height: 9.375em;
+    padding: 0.9375em 0.9375em;
+    background: #084879;
+    border-radius: 1.25em;
+    position: relative;
+  }
+
+  .form-control {
+    width: 100% !important;
+  }
+
+  .heading-item {
+    text-align: center;
+    margin: 0px auto;
+  }
+
+  .save-button {
+    background: #606ac3 !important;
+    color: #fff !important;
+    padding: 0.625em;
+    border-radius: 1.875em;
+    border: 0;
+    outline: none;
+    outline-offset: 0;
+    font-family: "Gilroy-bold";
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  input[type="password"] {
+    font-size: 0.8125em;
+  }
+
+  .password-heading {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  #message {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 0.625em;
+    margin-top: 0.625em;
+    border-radius: 0.625em;
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  #message p {
+    padding: 0.5em 2em;
+    font-size: 0.75em;
+  }
+
+  .valid {
+    color: green;
+  }
+
+  .valid:before {
+    position: relative;
+    left: -2.1875em;
+    content: "✔";
+  }
+
+  .invalid {
+    color: red;
+  }
+
+  .invalid:before {
+    position: relative;
+    left: -1.5625em;
+    content: "✖";
+  }
+
+  .btn-add-new {
+    width: 70%;
+    display: block;
+    margin-bottom: 0.625em;
+    text-align: center;
+  }
+
+  .function-list-container {
+    margin: 0 !important;
+  }
+
+  .transition {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6.875em, 1fr));
+    grid-column-gap: 1.25em;
+    grid-row-gap: 0.625em;
+  }
+
+  .transition-item {
+    width: 100%;
+    height: 8.75em;
+    padding: 0.9375em 0.9375em;
+    background: #084879;
+    border-radius: 1.25em;
+  }
+
+  .icon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(60px, 3fr));
+    grid-column-gap: 2em;
+    grid-row-gap: 1em;
+    margin: 0px auto;
+  }
+
+  .icon-list-item {
+    width: 3.375em;
+    height: 3.375em;
+    border-radius: 1.25em;
+  }
+
+  .password {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-column-gap: 0.6em;
+    grid-row-gap: 1em;
+  }
+
+  .password-item {
+    width: 100%;
+    height: 12em;
+    padding: 15px 2px;
+    background: #084879;
+    border-radius: 1.25em;
+  }
+
+  /* .password p{
+        font-size:12px;
+    } */
+
+  .web-accounts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-column-gap: 1em;
+    grid-row-gap: 1.5em;
+  }
+
+  .web-accounts-item {
+    width: 100%;
+    height: 4em;
+    padding: 10px 10px;
+    background: #084879;
+    border-radius: 1.25em;
+  }
+
+  .card-customer-name {
+    font-size: 0.8125em !important;
+  }
+
+  .card-no {
+    font-size: 0.875em;
+  }
+
+  .card-date-details {
+    font-size: 0.8125em !important;
+  }
+
+  .card-date-details-small {
+    font-size: 0.75em !important;
+  }
+
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    border-width: thin;
+  }
+}
+
+@media (min-width: 576px) {
+  .logo {
+    margin-left: 0;
+  }
+
+  .fa-heart-o {
+    font-size: 17px !important;
+    font-weight: 300 !important;
+  }
+
+  .password-heading {
+    font-family: "Gilroy-bold";
+    font-size: 30px;
+  }
+
+  .password-protected-form {
+    width: 50% !important;
+    color: #000;
+  }
+
+  .small-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 14px !important;
+  }
+
+  .hello-txt {
+    font-family: "Gilroy-Bold";
+    font-weight: 15px;
+  }
+
+  .user-name {
+    font-family: "Gilroy-Regular";
+    font-weight: 9px;
+  }
+
+  .btn-add-new {
+    background: transparent;
+    outline-offset: none;
+    padding: 0.9375em 0.9375em !important;
+    background: #79c99a;
+    border-radius: 1.5625em;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: "Gilroy-bold";
+    font-size: 15px !important;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .ico {
+    font-family: "Gilroy-Medium";
+    font-size: 15px;
+  }
+
+  .list-item-active {
+    font-family: "Gilroy-Medium";
+    font-size: 13px;
+    color: #fff !important;
+  }
+
+  .list-item {
+    font-family: "Gilroy-Medium";
+    font-size: 13px;
+    color: #677983 !important;
+  }
+
+  .function-item {
+    font-family: "Gilroy-Medium";
+    font-size: 12px;
+  }
+
+  .function-user-details {
+    font-family: "Gilroy-Regular";
+    font-size: 12px;
+  }
+
+  .password-protected-form {
+    width: 50% !important;
+    color: #000;
+  }
+
+  .save-button {
+    background: #606ac3 !important;
+    color: #fff !important;
+    padding: 0.625em;
+    border-radius: 1.875em;
+    border: 0;
+    outline: none;
+    outline-offset: 0;
+    font-family: "Gilroy-bold";
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  input[type="password"] {
+    font-size: 1.2em;
+  }
+
+  #message p {
+    padding: 0.5em 2em;
+    font-size: 1.05em;
+  }
+
+  .transition {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6.875em, 1fr));
+    grid-column-gap: 2.2em;
+    grid-row-gap: 1em;
+  }
+
+  .transition-item {
+    width: 8.75em;
+    height: 9.375em;
+    padding: 0.9375em 0.9375em;
+    background: #084879;
+    border-radius: 1.25em;
+  }
+
+  .icon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5.875em, 1fr));
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin: 0px auto;
+  }
+
+  .icon-list-item {
+    width: 4.75em;
+    height: 5.375em;
+    border-radius: 1.25em;
+  }
+
+  .credit-card-details-steps {
+    background: #084879;
+  }
+
+  .card-customer-name {
+    font-size: 1em !important;
+  }
+
+  .web-accounts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-column-gap: 1em;
+    grid-row-gap: 1.5em;
+  }
+
+  .web-accounts-item {
+    width: 100%;
+    height: 5em;
+    padding: 10px 10px;
+    background: #084879;
+    border-radius: 1.25em;
+  }
+
+  .card-no {
+    font-size: 0.875em;
+  }
+
+  .card-date-details {
+    font-size: 0.875em !important;
+  }
+
+  .card-date-details-small {
+    font-size: 1em !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin-left: 50px !important;
+  }
+
+  .fa-heart-o {
+    font-size: 17px !important;
+  }
+
+  .password-heading {
+    font-family: "Gilroy-bold";
+    font-size: 25px !important;
+  }
+
+  .top-nav > * {
+    margin-left: 0px;
+    padding: 2px;
+  }
+
+  .password-protected-form {
+    width: 50% !important;
+    color: #000;
+  }
+
+  .small-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 11px !important;
+  }
+
+  .hello-txt {
+    font-family: "Gilroy-Bold";
+    font-size: 11px !important;
+  }
+
+  .user-name {
+    font-family: "Gilroy-Regular";
+    font-size: 11px !important;
+  }
+
+  .btn-add-new {
+    background: transparent;
+    outline-offset: none;
+    padding: 0.5em 0.5em !important;
+    background: #79c99a;
+    border-radius: 1.5625em;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: "Gilroy-bold";
+    font-size: 10px !important;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .ico {
+    font-family: "Gilroy-Medium";
+    font-size: 11px;
+  }
+
+  .list-item-active {
+    font-family: "Gilroy-Medium";
+    font-size: 13px !important;
+    color: #fff !important;
+  }
+
+  .list-item {
+    font-family: "Gilroy-Medium";
+    font-size: 13px !important;
+    color: #677983 !important;
+  }
+
+  .function-item {
+    font-family: "Gilroy-Medium";
+    font-size: 12px;
+  }
+
+  .function-user-details {
+    font-family: "Gilroy-Regular";
+    font-size: 12px;
+  }
+
+  .password-protected-form {
+    width: 50% !important;
+    color: #000;
+  }
+
+  .save-button {
+    background: #606ac3 !important;
+    color: #fff !important;
+    padding: 0.625em;
+    border-radius: 1.875em;
+    border: 0;
+    outline: none;
+    outline-offset: 0;
+    font-family: "Gilroy-bold";
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  input[type="password"] {
+    font-size: 1em;
+  }
+
+  #message p {
+    padding: 0.5em 2em;
+    font-size: 1em;
+  }
+
+  .small-password-text {
+    font-size: 0.8125em;
+  }
+
+  .transition {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 2fr));
+    grid-column-gap: 3em;
+    grid-row-gap: 1.875em;
+  }
+
+  .transition-item {
+    width: 8.75em;
+    height: 9.375em;
+    padding: 0.9375em 0.9375em;
+    background: #084879;
+    border-radius: 1.25em;
+  }
+
+  .transition-item {
+    width: 9.75em;
+    height: 9.375em;
+    padding: 0.9375em 0.9375em !important;
+    background: #084879;
+    border-radius: 1.25em;
+  }
+
+  .icon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5.875em, 1fr));
+    grid-column-gap: 1em;
+    grid-row-gap: 2em;
+    margin: 0px auto;
+  }
+
+  .icon-list-item {
+    width: 5.75em;
+    height: 5.375em;
+    border-radius: 1.25em;
+  }
+
+  .credit-card-details-steps {
+    background: #084879;
+  }
+
+  .card-customer-name {
+    font-size: 1em !important;
+  }
+
+  .card-no {
+    font-size: 1em;
+  }
+
+  .card-date-details {
+    font-size: 1em !important;
+  }
+
+  .card-date-details-small {
+    font-size: 1.125em !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    padding: 0;
+  }
+
+  .logo {
+    margin-left: 100px !important;
+  }
+
+  .fa-heart-o {
+    font-size: 15px !important;
+    font-weight: 300 !important;
+  }
+
+  .password-heading {
+    font-family: "Gilroy-bold";
+    font-size: 30px !important;
+  }
+
+  .top-nav > * {
+    margin-left: 0px !important;
+    padding: 2px !important;
+  }
+
+  .password-protected-form {
+    width: 50% !important;
+    color: #000;
+  }
+
+  .small-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 13px !important;
+  }
+
+  .hello-txt {
+    font-family: "Gilroy-Bold";
+    font-size: 13px !important;
+  }
+
+  .user-name {
+    font-family: "Gilroy-Regular";
+    font-size: 13px !important;
+  }
+
+  .btn-add-new {
+    background: transparent;
+    outline-offset: none;
+    padding: 0.9375em 0.9375em !important;
+    background: #79c99a;
+    border-radius: 1.5625em;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: "Gilroy-bold";
+    font-size: 13px !important;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .ico {
+    font-family: "Gilroy-Medium";
+    font-size: 15px;
+  }
+
+  .list-item-active {
+    font-family: "Gilroy-Medium";
+    font-size: 13px;
+    color: #fff;
+  }
+
+  .list-item {
+    font-family: "Gilroy-Medium";
+    font-size: 13px;
+    color: #677983;
+  }
+
+  .function-item {
+    font-family: "Gilroy-Medium";
+    font-size: 12px;
+  }
+
+  .function-user-details {
+    font-family: "Gilroy-Regular";
+    font-size: 12px;
+  }
+
+  .password-protected-form {
+    width: 50% !important;
+    color: #000;
+  }
+
+  .save-button {
+    background: #606ac3 !important;
+    color: #fff !important;
+    padding: 0.625em;
+    border-radius: 1.875em;
+    border: 0;
+    outline: none;
+    outline-offset: 0;
+    font-family: "Gilroy-bold";
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  input[type="password"] {
+    font-size: 1.2em;
+  }
+
+  #message p {
+    padding: 0.5em 2em;
+    font-size: 1.05em;
+  }
+
+  .transition {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6.875em, 1fr));
+    grid-column-gap: 2.2em;
+    grid-row-gap: 1em;
+  }
+
+  .transition-item {
+    width: 8.75em;
+    height: 9.375em;
+    padding: 0.9375em 0.9375em;
+    background: #084879;
+    border-radius: 1.25em;
+  }
+
+  .credit-card-details-steps {
+    background: #084879;
+  }
+
+  .card-customer-name {
+    font-size: 1.175em !important;
+  }
+
+  .card-no {
+    font-size: 1em;
+  }
+
+  .card-date-details {
+    font-size: 1em !important;
+  }
+
+  .card-date-details-small {
+    font-size: 1em !important;
+  }
+
+  .icon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(4.875em, 1fr));
+    grid-column-gap: 1.8em;
+    grid-row-gap: 2em;
+    margin: 0px auto;
+  }
+
+  .icon-list-item {
+    width: 4.75em;
+    height: 4.375em;
+    border-radius: 1.25em;
+  }
+}
+
+@media (min-width: 1366px) {
+  .logo {
+    margin-left: 120px;
+  }
+
+  .fa-heart-o {
+    font-size: 20px !important;
+    font-weight: 300 !important;
+  }
+
+  .password-heading {
+    font-family: "Gilroy-bold";
+    font-size: 40px;
+  }
+
+  .password-protected-form {
+    width: 50% !important;
+    color: #000;
+  }
+
+  .small-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 14px !important;
+  }
+
+  .hello-txt {
+    font-family: "Gilroy-Bold";
+    font-size: 12px !important;
+  }
+
+  .user-name {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .btn-add-new {
+    background: transparent;
+    outline-offset: none;
+    padding: 1em 1em !important;
+    background: #79c99a;
+    border-radius: 1.5625em;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: "Gilroy-bold";
+    font-size: 12px !important;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .ico {
+    font-family: "Gilroy-Medium";
+    font-size: 15px;
+  }
+
+  .list-item-active {
+    font-family: "Gilroy-Medium";
+    font-size: 13px;
+    color: #fff;
+  }
+
+  .list-item {
+    font-family: "Gilroy-Medium";
+    font-size: 13px;
+    color: #677983;
+  }
+
+  .function-item {
+    font-family: "Gilroy-Medium";
+    font-size: 12px;
+  }
+
+  .function-user-details {
+    font-family: "Gilroy-Regular";
+    font-size: 12px;
+  }
+
+  .password-protected-form {
+    width: 50% !important;
+    color: #000;
+  }
+
+  .save-button {
+    background: #606ac3 !important;
+    color: #fff !important;
+    padding: 0.625em;
+    border-radius: 1.875em;
+    border: 0;
+    outline: none;
+    outline-offset: 0;
+    font-family: "Gilroy-bold";
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  input[type="password"] {
+    font-size: 1.2em;
+  }
+
+  #message p {
+    padding: 0.5em 2em;
+    font-size: 1.05em;
+  }
+
+  .transition {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6.875em, 1fr));
+    grid-column-gap: 2.2em;
+    grid-row-gap: 1em;
+  }
+
+  .transition-item {
+    width: 8.75em;
+    height: 9.375em;
+    padding: 0.9375em 0.9375em;
+    background: #084879;
+    border-radius: 1.25em;
+  }
+
+  .credit-card-details-steps {
+    background: #084879;
+  }
+
+  .card-customer-name {
+    font-size: 1.175em !important;
+  }
+
+  .card-no {
+    font-size: 1em;
+  }
+
+  .card-date-details {
+    font-size: 1em !important;
+  }
+
+  .card-date-details-small {
+    font-size: 1em !important;
+  }
+
+  .icon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5.875em, 1fr));
+    grid-column-gap: 1.8em;
+    grid-row-gap: 2em;
+    margin: 0px auto;
+  }
+
+  .icon-list-item {
+    width: 5.75em;
+    height: 5.375em;
+    border-radius: 1.25em;
+  }
+}
+
+@media (min-width: 1440px) {
+  .logo {
+    margin-left: 120px;
+  }
+
+  .fa-heart-o {
+    font-size: 24px !important;
+    font-weight: 300 !important;
+  }
+
+  .password-heading {
+    font-family: "Gilroy-bold";
+    font-size: 66px;
+  }
+
+  .password-protected-form {
+    width: 50% !important;
+    color: #000;
+  }
+
+  .small-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 18px !important;
+  }
+
+  .hello-txt {
+    font-family: "Gilroy-Bold";
+    font-size: 18px !important;
+  }
+
+  .user-name {
+    font-family: "Gilroy-Regular";
+    font-size: 18px !important;
+  }
+
+  .btn-add-new {
+    background: transparent;
+    outline-offset: none;
+    padding: 0.9375em 0.9375em !important;
+    background: #79c99a;
+    border-radius: 1.5625em;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .ico {
+    font-family: "Gilroy-Medium";
+    font-size: 21px !important;
+  }
+
+  .list-item-active {
+    font-family: "Gilroy-Medium";
+    font-size: 20px !important ;
+    color: #fff;
+  }
+
+  .list-item {
+    font-family: "Gilroy-Medium";
+    font-size: 20px !important;
+    color: #677983;
+  }
+
+  .function-item {
+    font-family: "Gilroy-Medium";
+    font-size: 16px !important;
+  }
+
+  .function-user-details {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .save-button {
+    background: #606ac3 !important;
+    color: #fff !important;
+    padding: 0.625em;
+    border-radius: 1.875em;
+    border: 0;
+    outline: none;
+    outline-offset: 0;
+    font-family: "Gilroy-bold";
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  input[type="password"] {
+    font-size: 1.2em !important;
+  }
+
+  #message p {
+    padding: 0.5em 2em;
+    font-size: 1.05em !important;
+  }
+
+  .transition {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6.875em, 1fr));
+    grid-column-gap: 2.5em;
+    grid-row-gap: 1.875em;
+  }
+
+  .transition-item {
+    width: 8.75em;
+    height: 9.375em;
+    padding: 0.9375em 0.9375em;
+    background: #084879;
+    border-radius: 1.25em;
+  }
+
+  .credit-card-details-steps {
+    background: #084879;
+  }
+
+  .card-customer-name {
+    font-size: 1.175em !important;
+  }
+
+  .card-no {
+    font-size: 1em !important;
+  }
+
+  .card-date-details {
+    font-size: 1em !important;
+  }
+
+  .card-date-details-small {
+    font-size: 1em !important;
+  }
+
+  .icon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5.875em, 1fr));
+    grid-column-gap: 1.8em;
+    grid-row-gap: 2em;
+    margin: 0px auto;
+  }
+
+  .icon-list-item {
+    width: 5.75em;
+    height: 5.375em;
+    border-radius: 1.25em;
+  }
+}
+
+@media (min-width: 1600px) {
+  .logo {
+    margin-left: 120px;
+  }
+
+  .fav {
+    font-size: 24px !important;
+    font-weight: 300 !important;
+    color: #fecd69;
+  }
+
+  .fa-heart-o {
+    font-size: 24px !important;
+    font-weight: 300 !important;
+  }
+
+  .password-heading {
+    font-family: "Gilroy-bold";
+    font-size: 66px;
+  }
+
+  .password-protected-form {
+    width: 50% !important;
+    color: #000;
+  }
+
+  .small-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 18px !important;
+  }
+
+  .hello-txt {
+    font-family: "Gilroy-Bold";
+    font-weight: 18px !important;
+  }
+
+  .user-name {
+    font-family: "Gilroy-Regular";
+    font-size: 18px !important;
+  }
+
+  .btn-add-new {
+    background: transparent;
+    outline-offset: none;
+    padding: 0.9375em 0.9375em !important;
+    background: #79c99a;
+    border-radius: 1.5625em;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .ico {
+    font-family: "Gilroy-Medium";
+    font-size: 21px !important;
+  }
+
+  .list-item-active {
+    font-family: "Gilroy-Medium";
+    font-size: 20px !important ;
+    color: #fff;
+  }
+
+  .list-item {
+    font-family: "Gilroy-Medium";
+    font-size: 20px !important;
+    color: #677983;
+  }
+
+  .function-item {
+    font-family: "Gilroy-Medium";
+    font-size: 16px !important;
+  }
+
+  .function-user-details {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .save-button {
+    background: #606ac3 !important;
+    color: #fff !important;
+    padding: 0.625em;
+    border-radius: 1.875em;
+    border: 0;
+    outline: none;
+    outline-offset: 0;
+    font-family: "Gilroy-bold";
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  input[type="password"] {
+    font-size: 1.2em !important;
+  }
+
+  #message p {
+    padding: 0.5em 2em;
+    font-size: 1.05em !important;
+  }
+
+  .transition {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6.875em, 1fr));
+    grid-column-gap: 2.5em;
+    grid-row-gap: 1.875em;
+  }
+
+  .transition-item {
+    width: 8.75em;
+    height: 9.375em;
+    padding: 0.9375em 0.9375em;
+    background: #084879;
+    border-radius: 1.25em;
+  }
+
+  .credit-card-details-steps {
+    background: #084879;
+  }
+
+  .card-customer-name {
+    font-size: 1.175em !important;
+  }
+
+  .card-no {
+    font-size: 1em !important;
+  }
+
+  .card-date-details {
+    font-size: 1em !important;
+  }
+
+  .card-date-details-small {
+    font-size: 1em !important;
+  }
+
+  .icon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5.875em, 1fr));
+    grid-column-gap: 1.8em;
+    grid-row-gap: 2em;
+    margin: 0px auto;
+  }
+
+  .icon-list-item {
+    width: 5.75em;
+    height: 5.375em;
+    border-radius: 1.25em;
+  }
+}
+
+@media (min-width: 1900px) {
+  .logo {
+    margin-left: 120px;
+  }
+
+  .fa-heart-o {
+    font-size: 24px !important;
+    font-weight: 300 !important;
+  }
+
+  .password-heading {
+    font-family: "Gilroy-bold";
+    font-size: 66px !important;
+  }
+
+  .password-protected-form {
+    width: 50% !important;
+    color: #000;
+  }
+
+  .small-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 18px !important;
+  }
+
+  .hello-txt {
+    font-family: "Gilroy-Bold";
+    font-size: 18px !important;
+  }
+
+  .user-name {
+    font-family: "Gilroy-Regular";
+    font-size: 18px !important;
+  }
+
+  .btn-add-new {
+    background: transparent;
+    outline-offset: none;
+    padding: 1em 0.5em !important;
+    background: #79c99a;
+    border-radius: 1.5625em;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+    margin-top: 5px;
+    text-align: center;
+    display: block;
+  }
+
+  .ico {
+    font-family: "Gilroy-Medium";
+    font-size: 21px !important;
+  }
+
+  .list-item-active {
+    font-family: "Gilroy-Medium";
+    font-size: 20px !important ;
+    color: #fff;
+  }
+
+  .list-item {
+    font-family: "Gilroy-Medium";
+    font-size: 20px !important;
+    color: #677983;
+  }
+
+  .function-item {
+    font-family: "Gilroy-Medium";
+    font-size: 16px !important;
+  }
+
+  .function-user-details {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .save-button {
+    background: #606ac3 !important;
+    color: #fff !important;
+    padding: 0.625em;
+    border-radius: 1.875em;
+    border: 0;
+    outline: none;
+    outline-offset: 0;
+    font-family: "Gilroy-bold";
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  input[type="password"] {
+    font-size: 1.2em !important;
+  }
+
+  #message p {
+    padding: 0.5em 2em;
+    font-size: 1.05em !important;
+  }
+
+  .transition {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6.875em, 1fr));
+    grid-column-gap: 2.5em;
+    grid-row-gap: 1.875em;
+  }
+
+  .transition-item {
+    width: 8.75em;
+    height: 9.375em;
+    padding: 0.9375em 0.9375em;
+    background: #084879;
+    border-radius: 1.25em;
+  }
+
+  .credit-card-details-steps {
+    background: #084879;
+  }
+
+  .card-customer-name {
+    font-size: 1.175em !important;
+  }
+
+  .card-no {
+    font-size: 1em !important;
+  }
+
+  .card-date-details {
+    font-size: 1em !important;
+  }
+
+  .card-date-details-small {
+    font-size: 1em !important;
+  }
+
+  .icon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5.875em, 1fr));
+    grid-column-gap: 1.8em;
+    grid-row-gap: 2em;
+    margin: 0px auto;
+  }
+
+  .icon-list-item {
+    width: 5.75em;
+    height: 5.375em;
+    border-radius: 1.25em;
+  }
+
+  .modal-text {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+  }
+
+  .modal-text:hover {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+  }
+}
+
+
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  touch-action: manipulation;
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("./gilroy/Gilroy-Light.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(./gilroy/Gilroy-Medium.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url(./gilroy/Gilroy-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-bold";
+  src: url(./gilroy/Gilroy-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url(./gilroy/Gilroy-ExtraBold.otf) format("truetype");
+  font-weight: bold;
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.6);
+}
+.modal-backdrop {
+  display: none;
+}
+
+.modal .modal-dialog-aside {
+  width: 100% !important;
+  max-width: 80%;
+  height: 100%;
+  margin: 0;
+  transform: translate(0);
+  transition: transform 0.2s;
+  z-index: inherit;
+}
+
+.modal .modal-dialog-aside .modal-content {
+  height: inherit;
+  border: 0;
+  border-radius: 0;
+}
+.modal .modal-dialog-aside .modal-content .modal-body {
+  overflow-y: auto;
+}
+.modal.fixed-left .modal-dialog-aside {
+  margin-left: auto;
+  transform: translateX(100%);
+}
+.modal.fixed-right .modal-dialog-aside {
+  margin-right: auto;
+  transform: translateX(-100%);
+}
+
+.modal.show .modal-dialog-aside {
+  transform: translateX(0);
+}
+
+.close {
+  background: transparent !important;
+}
+
+.modalCenter {
+  position: relative;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+/* @media (min-width: 576px) 
+{
+
+.modalCenter{
+  top:100% !important;
+  transform: translateY(-50%) !important;
+}
+} */
+
+::placeholder {
+  color: #fff !important;
+  opacity: 1;
+  font-size: 18px;
+}
+
+:-ms-input-placeholder {
+  color: #fff !important;
+}
+
+::-ms-input-placeholder {
+  color: #fff;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #ffffff !important;
+  -webkit-box-shadow: 0 0 0px 1000px #002639 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.form-control::placeholder {
+  color: #a8acad !important;
+  font-size: 18px !important;
+  font-family: "Gilroy-Regular";
+} /* Chrome, Firefox, Opera*/
+:-ms-input-placeholder.form-control {
+  color: #a8acad !important;
+  font-size: 18px !important;
+  font-family: "Gilroy-Regular";
+} /* Internet Explorer*/
+.form-control::-ms-input-placeholder {
+  color: #a8acad !important;
+  font-size: 18px !important;
+  font-family: "Gilroy-Regular";
+} /* Microsoft Edge*/
+
+.form-control:focus {
+  border-color: #206fac;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  font-size: 18px;
+  font-family: "Gilroy-Regular";
+}
+.form-control::placeholder {
+  color: #a8acad !important;
+  font-size: 18px !important;
+  font-family: "Gilroy-Regular";
+} /* Chrome, Firefox, Opera*/
+:-ms-input-placeholder.form-control {
+  color: #a8acad;
+  font-size: 18px !important;
+  font-family: "Gilroy-Regular";
+} /* Internet Explorer*/
+.form-control::-ms-input-placeholder {
+  color: #a8acad;
+  font-size: 18px !important;
+  font-family: "Gilroy-Regular";
+} /* Microsoft Edge*/
+
+input::-webkit-credentials-auto-fill-button {
+  visibility: hidden;
+}
+
+/* start card block */
+
+.bank-name {
+  font-family: "Gilroy-Regular";
+  font-size: 24px;
+}
+
+.card-number {
+  font-family: "Gilroy-bold";
+  font-size: 16px;
+}
+
+.valid-from,
+.valid-to {
+  font-family: "Gilroy-Regular";
+  font-size: 12px;
+}
+
+.valid-date {
+  font-family: "Gilroy-bold";
+  font-size: 14px;
+}
+
+.pin-text {
+  font-family: "Gilroy-Regular";
+  font-size: 12px;
+}
+
+.cvv-text {
+  font-family: "Gilroy-Regular";
+  font-size: 12px;
+}
+
+.card-user-name {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+}
+
+.card-details-steps-name {
+  font-family: "Gilroy-bold";
+  font-size: 16px;
+}
+
+/* end card block */
+
+/* start add-account */
+.add-account-name {
+  font-family: "Gilroy-Regular";
+  font-size: 24px;
+}
+
+.add-account-link {
+  font-family: "Gilroy-bold";
+  font-size: 16px;
+}
+
+.username-heading,
+.username-password-heading {
+  font-family: "Gilroy-Regular";
+  font-size: 12px;
+}
+
+.username,
+.usernamepassword {
+  font-family: "Gilroy-bold";
+  font-size: 14px;
+}
+
+/* end add-account */
+
+/* start add assign category */
+
+/* end add assign category */
+
+/* start  add fields */
+
+.add_fields_bottom_line {
+  border-bottom: 1px solid #2d597b;
+}
+
+.field-name {
+  font-family: "Gilroy-Medium";
+  font-size: 20px;
+}
+
+/* end fields */
+
+/* add new field */
+.add-new-text {
+  font-family: "Gilroy-bold";
+  font-size: 18px;
+}
+
+/* start new field */
+
+/* edit start */
+.add-password-text {
+  font-family: "Gilroy-Medium";
+  font-size: 20px;
+}
+/* edit end */
+
+/* password start  */
+
+.account-heading {
+  font-family: "Gilroy-bold";
+  font-size: 22px;
+}
+
+.account-text {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+}
+
+/* password end  */
+
+.password-heading-text {
+  font-family: "Gilroy-bold";
+  font-size: 20px;
+}
+
+.password-text {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+}
+
+/* start select */
+
+.select-text {
+  font-family: "Gilroy-bold";
+  font-size: 16px;
+}
+
+/* end select */
+
+/* start web accounts */
+
+.web-heading {
+  font-family: "Gilroy-bold";
+  font-size: 18px;
+}
+
+/* end web accounts */
+
+@media (min-width: 300px) {
+  .bank-name {
+    font-family: "Gilroy-Regular";
+    font-size: 14px !important;
+  }
+
+  .card-number {
+    font-family: "Gilroy-bold";
+    font-size: 8px !important;
+  }
+
+  .valid-from,
+  .valid-to {
+    font-family: "Gilroy-Regular";
+    font-size: 7px !important;
+  }
+
+  .valid-date {
+    font-family: "Gilroy-bold";
+    font-size: 7px !important;
+  }
+
+  .pin-text {
+    font-family: "Gilroy-Regular";
+    font-size: 7px !important;
+  }
+
+  .cvv-text {
+    font-family: "Gilroy-Regular";
+    font-size: 7px !important ;
+  }
+
+  .card-user-name {
+    font-family: "Gilroy-Medium";
+    font-size: 8px !important;
+  }
+
+  .card-details-steps-name {
+    font-family: "Gilroy-bold";
+    font-size: 8px !important;
+  }
+
+  /* end card block */
+
+  /* start add-account */
+  .add-account-name {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .add-account-link {
+    font-family: "Gilroy-bold";
+    font-size: 8px !important;
+  }
+
+  .username-heading,
+  .username-password-heading {
+    font-family: "Gilroy-Regular";
+    font-size: 8px !important;
+  }
+
+  .username,
+  .usernamepassword {
+    font-family: "Gilroy-bold";
+    font-size: 9px !important;
+  }
+
+  /* end add-account */
+
+  /* start add assign category */
+
+  /* end add assign category */
+
+  /* start  add fields */
+
+  .add_fields_bottom_line {
+    border-bottom: 1px solid #2d597b;
+  }
+
+  .field-name {
+    font-family: "Gilroy-Medium";
+    font-size: 12px !important;
+  }
+
+  /* end fields */
+
+  /* add new field */
+  .add-new-text {
+    font-family: "Gilroy-bold";
+    font-size: 10px !important;
+  }
+
+  /* start new field */
+
+  /* edit start */
+  .add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 12px !important;
+  }
+  /* edit end */
+
+  /* password start  */
+
+  .account-heading {
+    font-family: "Gilroy-bold";
+    font-size: 14px !important;
+  }
+
+  .account-text {
+    font-family: "Gilroy-Regular";
+    font-size: 10px !important;
+  }
+
+  /* password end  */
+
+  .password-heading-text {
+    font-family: "Gilroy-bold";
+    font-size: 12px !important;
+  }
+
+  .password-text {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  /* start select */
+
+  .select-text {
+    font-family: "Gilroy-bold";
+    font-size: 10px !important;
+  }
+
+  /* end select */
+
+  /* start web accounts */
+
+  .web-heading {
+    font-family: "Gilroy-bold";
+    font-size: 10px !important;
+  }
+
+  .modal-add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 14px !important;
+  }
+
+  /* end web accounts */
+}
+
+@media (min-width: 576px) {
+  .modal-header {
+    padding: 0.9375em 0.9375em;
+    background-color: #084779;
+    -webkit-border-top-left-radius: 1.5em;
+    -webkit-border-top-right-radius: 1.5em;
+    -moz-border-radius-top-left: 1.5em;
+    -moz-border-radius-top-right: 1.5em;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    width: 100%;
+    border: 0px solid #084779;
+    padding: 18px 20px;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-size: 0.625em;
+    font-family: "Gilroy-Medium";
+  }
+  .bank-name {
+    font-family: "Gilroy-Regular";
+    font-size: 14px !important;
+  }
+
+  .card-number {
+    font-family: "Gilroy-bold";
+    font-size: 8px !important;
+  }
+
+  .valid-from,
+  .valid-to {
+    font-family: "Gilroy-Regular";
+    font-size: 7px !important;
+  }
+
+  .valid-date {
+    font-family: "Gilroy-bold";
+    font-size: 7px !important;
+  }
+
+  .pin-text {
+    font-family: "Gilroy-Regular";
+    font-size: 7px !important;
+  }
+
+  .cvv-text {
+    font-family: "Gilroy-Regular";
+    font-size: 7px !important ;
+  }
+
+  .card-user-name {
+    font-family: "Gilroy-Medium";
+    font-size: 8px !important;
+  }
+
+  .card-details-steps-name {
+    font-family: "Gilroy-bold";
+    font-size: 8px !important;
+  }
+
+  /* end card block */
+
+  /* start add-account */
+  .add-account-name {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .add-account-link {
+    font-family: "Gilroy-bold";
+    font-size: 8px !important;
+  }
+
+  .username-heading,
+  .username-password-heading {
+    font-family: "Gilroy-Regular";
+    font-size: 8px !important;
+  }
+
+  .username,
+  .usernamepassword {
+    font-family: "Gilroy-bold";
+    font-size: 9px !important;
+  }
+
+  /* end add-account */
+
+  /* start add assign category */
+
+  /* end add assign category */
+
+  /* start  add fields */
+
+  .add_fields_bottom_line {
+    border-bottom: 1px solid #2d597b;
+  }
+
+  .field-name {
+    font-family: "Gilroy-Medium";
+    font-size: 12px !important;
+  }
+
+  /* end fields */
+
+  /* add new field */
+  .add-new-text {
+    font-family: "Gilroy-bold";
+    font-size: 10px !important;
+  }
+
+  /* start new field */
+
+  /* edit start */
+  .add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 12px !important;
+  }
+  /* edit end */
+
+  /* password start  */
+
+  .account-heading {
+    font-family: "Gilroy-bold";
+    font-size: 14px !important;
+  }
+
+  .account-text {
+    font-family: "Gilroy-Regular";
+    font-size: 10px !important;
+  }
+
+  /* password end  */
+
+  .password-heading-text {
+    font-family: "Gilroy-bold";
+    font-size: 12px !important;
+  }
+
+  .password-text {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  /* start select */
+
+  .select-text {
+    font-family: "Gilroy-bold";
+    font-size: 10px !important;
+  }
+
+  /* end select */
+
+  /* start web accounts */
+
+  .web-heading {
+    font-family: "Gilroy-bold";
+    font-size: 10px !important;
+  }
+
+  /* end web accounts */
+
+  .modal-add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 12px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  /* start card block */
+
+  .modal-header {
+    padding: 0.9375em 0.9375em;
+    background-color: #084779;
+    -webkit-border-top-left-radius: 1.5em;
+    -webkit-border-top-right-radius: 1.5em;
+    -moz-border-radius-top-left: 1.5em;
+    -moz-border-radius-top-right: 1.5em;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    width: 100%;
+    border: 0px solid #084779;
+    padding: 18px 20px;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-size: 0.625em;
+    font-family: "Gilroy-Medium";
+  }
+
+  .bank-name {
+    font-family: "Gilroy-Regular";
+    font-size: 14px !important;
+  }
+
+  .card-number {
+    font-family: "Gilroy-bold";
+    font-size: 8px !important;
+  }
+
+  .valid-from,
+  .valid-to {
+    font-family: "Gilroy-Regular";
+    font-size: 7px !important;
+  }
+
+  .valid-date {
+    font-family: "Gilroy-bold";
+    font-size: 7px !important;
+  }
+
+  .pin-text {
+    font-family: "Gilroy-Regular";
+    font-size: 7px !important;
+  }
+
+  .cvv-text {
+    font-family: "Gilroy-Regular";
+    font-size: 7px !important ;
+  }
+
+  .card-user-name {
+    font-family: "Gilroy-Medium";
+    font-size: 8px !important;
+  }
+
+  .card-details-steps-name {
+    font-family: "Gilroy-bold";
+    font-size: 8px !important;
+  }
+
+  /* end card block */
+
+  /* start add-account */
+  .add-account-name {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .add-account-link {
+    font-family: "Gilroy-bold";
+    font-size: 8px !important;
+  }
+
+  .username-heading,
+  .username-password-heading {
+    font-family: "Gilroy-Regular";
+    font-size: 8px !important;
+  }
+
+  .username,
+  .usernamepassword {
+    font-family: "Gilroy-bold";
+    font-size: 9px !important;
+  }
+
+  /* end add-account */
+
+  /* start add assign category */
+
+  /* end add assign category */
+
+  /* start  add fields */
+
+  .add_fields_bottom_line {
+    border-bottom: 1px solid #2d597b;
+  }
+
+  .field-name {
+    font-family: "Gilroy-Medium";
+    font-size: 12px !important;
+  }
+
+  /* end fields */
+
+  /* add new field */
+  .add-new-text {
+    font-family: "Gilroy-bold";
+    font-size: 10px !important;
+  }
+
+  /* start new field */
+
+  /* edit start */
+  .add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 12px !important;
+  }
+  /* edit end */
+
+  /* password start  */
+
+  .account-heading {
+    font-family: "Gilroy-bold";
+    font-size: 14px !important;
+  }
+
+  .account-text {
+    font-family: "Gilroy-Regular";
+    font-size: 10px !important;
+  }
+
+  /* password end  */
+
+  .password-heading-text {
+    font-family: "Gilroy-bold";
+    font-size: 12px !important;
+  }
+
+  .password-text {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  /* start select */
+
+  .select-text {
+    font-family: "Gilroy-bold";
+    font-size: 10px !important;
+  }
+
+  /* end select */
+
+  /* start web accounts */
+
+  .web-heading {
+    font-family: "Gilroy-bold";
+    font-size: 10px !important;
+  }
+
+  /* end web accounts */
+
+  .modal-add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  * start card block */ .modal .modal-dialog-aside {
+    width: 50% !important;
+    height: 50% !important;
+    margin: 0;
+    transform: translate(0);
+    transition: transform 0.2s;
+    z-index: inherit;
+  }
+
+  .modal-header {
+    padding: 0.9375em 0.9375em;
+    background-color: #084779;
+    -webkit-border-top-left-radius: 1.5em;
+    -webkit-border-top-right-radius: 1.5em;
+    -moz-border-radius-top-left: 1.5em;
+    -moz-border-radius-top-right: 1.5em;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    width: 100%;
+    border: 0px solid #084779;
+    padding: 18px 20px;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-size: 1em;
+    font-family: "Gilroy-Medium";
+  }
+
+  .bank-name {
+    font-family: "Gilroy-Regular";
+    font-size: 18px !important;
+  }
+
+  .card-number {
+    font-family: "Gilroy-bold";
+    font-size: 10px !important;
+  }
+
+  .valid-from,
+  .valid-to {
+    font-family: "Gilroy-Regular";
+    font-size: 8px !important;
+  }
+
+  .valid-date {
+    font-family: "Gilroy-bold";
+    font-size: 8px !important;
+  }
+
+  .pin-text {
+    font-family: "Gilroy-Regular";
+    font-size: 8px !important;
+  }
+
+  .cvv-text {
+    font-family: "Gilroy-Regular";
+    font-size: 8px !important;
+  }
+
+  .card-user-name {
+    font-family: "Gilroy-Medium";
+    font-size: 9px !important;
+  }
+
+  .card-details-steps-name {
+    font-family: "Gilroy-bold";
+    font-size: 8px !important;
+  }
+
+  /* end card block */
+
+  /* start add-account */
+  .add-account-name {
+    font-family: "Gilroy-Regular";
+    font-size: 16px !important;
+  }
+
+  .add-account-link {
+    font-family: "Gilroy-bold";
+    font-size: 10px !important;
+  }
+
+  .username-heading,
+  .username-password-heading {
+    font-family: "Gilroy-Regular";
+    font-size: 8px !important;
+  }
+
+  .username,
+  .usernamepassword {
+    font-family: "Gilroy-bold";
+    font-size: 9px !important;
+  }
+
+  /* end add-account */
+
+  /* start add assign category */
+
+  /* end add assign category */
+
+  /* start  add fields */
+
+  .add_fields_bottom_line {
+    border-bottom: 1px solid #2d597b;
+  }
+
+  .field-name {
+    font-family: "Gilroy-Medium";
+    font-size: 15px !important;
+  }
+
+  /* end fields */
+
+  /* add new field */
+  .add-new-text {
+    font-family: "Gilroy-bold";
+    font-size: 12px !important;
+  }
+
+  /* start new field */
+
+  /* edit start */
+  .add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 15px !important;
+  }
+  /* edit end */
+
+  /* password start  */
+
+  .account-heading {
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+  }
+
+  .account-text {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  /* password end  */
+
+  .password-heading-text {
+    font-family: "Gilroy-bold";
+    font-size: 15px !important;
+  }
+
+  .password-text {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  /* start select */
+
+  .select-text {
+    font-family: "Gilroy-bold";
+    font-size: 12px !important;
+  }
+
+  /* end select */
+
+  /* start web accounts */
+
+  .web-heading {
+    font-family: "Gilroy-bold";
+    font-size: 12px !important;
+  }
+
+  /* end web accounts */
+
+  .modal-add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 13px !important;
+  }
+
+  .modal-add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 1366px) {
+  ::placeholder {
+    color: #fff !important;
+    opacity: 1;
+    font-size: 12px;
+  }
+
+  :-ms-input-placeholder {
+    color: #fff !important;
+  }
+
+  ::-ms-input-placeholder {
+    color: #fff;
+  }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-text-fill-color: #ffffff !important;
+    -webkit-box-shadow: 0 0 0px 1000px #002639 inset;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+  .form-control::placeholder {
+    color: #a8acad !important;
+    font-size: 12px !important;
+    font-family: "Gilroy-Regular";
+  } /* Chrome, Firefox, Opera*/
+  :-ms-input-placeholder.form-control {
+    color: #a8acad !important;
+    font-size: 12px !important;
+    font-family: "Gilroy-Regular";
+  } /* Internet Explorer*/
+  .form-control::-ms-input-placeholder {
+    color: #a8acad !important;
+    font-size: 12px !important;
+    font-family: "Gilroy-Regular";
+  } /* Microsoft Edge*/
+
+  .form-control:focus {
+    border-color: #206fac;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    font-size: 12px;
+    font-family: "Gilroy-Regular";
+  }
+  .form-control::placeholder {
+    color: #a8acad !important;
+    font-size: 12px !important;
+    font-family: "Gilroy-Regular";
+  } /* Chrome, Firefox, Opera*/
+  :-ms-input-placeholder.form-control {
+    color: #a8acad;
+    font-size: 12px !important;
+    font-family: "Gilroy-Regular";
+  } /* Internet Explorer*/
+  .form-control::-ms-input-placeholder {
+    color: #a8acad;
+    font-size: 12px !important;
+    font-family: "Gilroy-Regular";
+  } /* Microsoft Edge*/
+
+  input::-webkit-credentials-auto-fill-button {
+    visibility: hidden;
+  }
+
+  /* start card block */
+
+  .modal-header {
+    padding: 0.9375em 0.9375em;
+    background-color: #084779;
+    -webkit-border-top-left-radius: 1.5em;
+    -webkit-border-top-right-radius: 1.5em;
+    -moz-border-radius-top-left: 1.5em;
+    -moz-border-radius-top-right: 1.5em;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    width: 100%;
+    border: 0px solid #084779;
+    padding: 8px 10px;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-size: 1.5em;
+    font-family: "Gilroy-Medium";
+    height: 100%;
+  }
+
+  .modal-body {
+    background-color: #04354d;
+    -webkit-border-bottom-left-radius: 1.5em;
+    -webkit-border-bottom-right-radius: 1.5em;
+    -moz-border-radius-bottom-left: 1.5em;
+    -moz-border-radius-bottom-right: 1.5em;
+    border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+    font-family: "Gilroy-Regular";
+  }
+
+  .close {
+    background: transparent !important;
+  }
+
+  .modal-content {
+    position: relative;
+    background-color: transparent !important;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+  }
+
+  .model-input {
+    background: transparent;
+    padding: 1.7em 1.7em;
+    border: 0.1em solid #107fb7;
+    outline: none;
+    color: #fff !important;
+    font-family: "Gilroy-Regular";
+    border-radius: 10px;
+    font-size: 12px;
+  }
+
+  .model-input:focus {
+    background: transparent;
+    padding: 1.7em 1.7em;
+    border: 0px solid none;
+    outline: none;
+    color: #fff;
+    font-family: "Gilroy-Regular";
+    border-radius: 10px;
+    font-size: 12px;
+  }
+
+  .model-date-input {
+    background: transparent;
+    padding: 0.8em 0.5625em;
+    border: 0.1em solid #107fb7;
+    outline: none;
+    color: #fff !important;
+    background: transparent !important;
+    font-family: "Gilroy-Regular";
+    font-size: 18px;
+    border-radius: 10px;
+  }
+
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url("calender.png") no-repeat;
+    border-width: thin;
+    width: 10%;
+    border-radius: 10px;
+  }
+
+  .add-field {
+    background: #89c393 !important;
+    color: #fff !important;
+    padding: 0.625em;
+    border-radius: 0.625em;
+  }
+
+  .btn-edit {
+    font-family: "Gilroy-Medium";
+    font-size: 12px;
+  }
+
+  .modal-title {
+    font-size: 0.7em;
+    margin-left: 3%;
+  }
+
+  .modal-dialog {
+    margin: auto;
+  }
+
+  .modalCenter {
+    position: relative;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+  }
+
+  .bank-name {
+    font-family: "Gilroy-Regular";
+    font-size: 18px !important;
+  }
+
+  .card-number {
+    font-family: "Gilroy-bold";
+    font-size: 10px !important;
+  }
+
+  .valid-from,
+  .valid-to {
+    font-family: "Gilroy-Regular";
+    font-size: 8px !important;
+  }
+
+  .valid-date {
+    font-family: "Gilroy-bold";
+    font-size: 8px !important;
+  }
+
+  .pin-text {
+    font-family: "Gilroy-Regular";
+    font-size: 8px !important;
+  }
+
+  .cvv-text {
+    font-family: "Gilroy-Regular";
+    font-size: 8px !important;
+  }
+
+  .card-user-name {
+    font-family: "Gilroy-Medium";
+    font-size: 9px !important;
+  }
+
+  .card-details-steps-name {
+    font-family: "Gilroy-bold";
+    font-size: 8px !important;
+  }
+
+  /* end card block */
+
+  /* start add-account */
+  .add-account-name {
+    font-family: "Gilroy-Regular";
+    font-size: 16px !important;
+  }
+
+  .add-account-link {
+    font-family: "Gilroy-bold";
+    font-size: 10px !important;
+  }
+
+  .username-heading,
+  .username-password-heading {
+    font-family: "Gilroy-Regular";
+    font-size: 8px !important;
+  }
+
+  .username,
+  .usernamepassword {
+    font-family: "Gilroy-bold";
+    font-size: 9px !important;
+  }
+
+  /* end add-account */
+
+  /* start add assign category */
+
+  /* end add assign category */
+
+  /* start  add fields */
+
+  .add_fields_bottom_line {
+    border-bottom: 1px solid #2d597b;
+  }
+
+  .field-name {
+    font-family: "Gilroy-Medium";
+    font-size: 15px !important;
+  }
+
+  /* end fields */
+
+  /* add new field */
+  .add-new-text {
+    font-family: "Gilroy-bold";
+    font-size: 12px !important;
+  }
+
+  /* start new field */
+
+  /* edit start */
+  .add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 15px !important;
+  }
+  /* edit end */
+
+  /* password start  */
+
+  .account-heading {
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+  }
+
+  .account-text {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  /* password end  */
+
+  .password-heading-text {
+    font-family: "Gilroy-bold";
+    font-size: 15px !important;
+  }
+
+  .password-text {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  /* start select */
+
+  .select-text {
+    font-family: "Gilroy-bold";
+    font-size: 12px !important;
+  }
+
+  /* end select */
+
+  /* start web accounts */
+
+  .web-heading {
+    font-family: "Gilroy-bold";
+    font-size: 12px !important;
+  }
+
+  /* end web accounts */
+
+  .modal-add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 15px;
+  }
+
+  .modal-add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .modal .modal-dialog-aside {
+    width: 50% !important;
+    height: 50% !important;
+    margin: 0;
+    transform: translate(0);
+    transition: transform 0.2s;
+    z-index: inherit;
+  }
+
+  /* start card block */
+
+  .modal-header {
+    padding: 0.9375em 0.9375em;
+    background-color: #084779;
+    -webkit-border-top-left-radius: 1.5em;
+    -webkit-border-top-right-radius: 1.5em;
+    -moz-border-radius-top-left: 1.5em;
+    -moz-border-radius-top-right: 1.5em;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    width: 100%;
+    border: 0px solid #084779;
+    padding: 18px 20px;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-size: 1.5em !important;
+    font-family: "Gilroy-Medium";
+  }
+
+  .bank-name {
+    font-family: "Gilroy-Regular";
+    font-size: 24px !important;
+  }
+
+  .card-number {
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+  }
+
+  .valid-from,
+  .valid-to {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .valid-date {
+    font-family: "Gilroy-bold";
+    font-size: 14px !important;
+  }
+
+  .pin-text {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .cvv-text {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .card-user-name {
+    font-family: "Gilroy-Medium";
+    font-size: 18px !important;
+  }
+
+  .card-details-steps-name {
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+  }
+
+  /* end card block */
+
+  /* start add-account */
+  .add-account-name {
+    font-family: "Gilroy-Regular";
+    font-size: 24px !important;
+  }
+
+  .add-account-link {
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+  }
+
+  .username-heading,
+  .username-password-heading {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .username,
+  .usernamepassword {
+    font-family: "Gilroy-bold";
+    font-size: 14px !important;
+  }
+
+  /* end add-account */
+
+  /* start add assign category */
+
+  /* end add assign category */
+
+  /* start  add fields */
+
+  .add_fields_bottom_line {
+    border-bottom: 1px solid #2d597b;
+  }
+
+  .field-name {
+    font-family: "Gilroy-Medium";
+    font-size: 20px !important;
+  }
+
+  /* end fields */
+
+  /* add new field */
+  .add-new-text {
+    font-family: "Gilroy-bold";
+    font-size: 18px !important;
+  }
+
+  /* start new field */
+
+  /* edit start */
+  .add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 20px !important;
+  }
+  /* edit end */
+
+  /* password start  */
+
+  .account-heading {
+    font-family: "Gilroy-bold";
+    font-size: 22px !important;
+  }
+
+  .account-text {
+    font-family: "Gilroy-Regular";
+    font-size: 16px !important;
+  }
+
+  /* password end  */
+
+  .password-heading-text {
+    font-family: "Gilroy-bold";
+    font-size: 20px;
+  }
+
+  .password-text {
+    font-family: "Gilroy-Regular";
+    font-size: 16px !important;
+  }
+
+  /* start select */
+
+  .select-text {
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+  }
+
+  /* end select */
+
+  /* start web accounts */
+
+  .web-heading {
+    font-family: "Gilroy-bold";
+    font-size: 18px !important;
+  }
+
+  /* end web accounts */
+
+  .modal-add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 18px !important;
+  }
+}
+
+@media (min-width: 1600px) {
+  .modal .modal-dialog-aside {
+    width: 350px !important;
+    max-width: 80% !important;
+    height: 100% !important;
+    margin: 0;
+    transform: translate(0);
+    transition: transform 0.2s;
+    z-index: inherit;
+  }
+  /* start card block */
+  .modal-header {
+    padding: 0.9375em 0.9375em;
+    background-color: #084779;
+    -webkit-border-top-left-radius: 1.5em;
+    -webkit-border-top-right-radius: 1.5em;
+    -moz-border-radius-top-left: 1.5em;
+    -moz-border-radius-top-right: 1.5em;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    width: 100%;
+    border: 0px solid #084779;
+    padding: 18px 20px;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-size: 1.5em !important;
+    font-family: "Gilroy-Medium";
+  }
+
+  .bank-name {
+    font-family: "Gilroy-Regular";
+    font-size: 24px !important;
+  }
+
+  .card-number {
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+  }
+
+  .valid-from,
+  .valid-to {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .valid-date {
+    font-family: "Gilroy-bold";
+    font-size: 14px !important;
+  }
+
+  .pin-text {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .cvv-text {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .card-user-name {
+    font-family: "Gilroy-Medium";
+    font-size: 18px !important;
+  }
+
+  .card-details-steps-name {
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+  }
+
+  /* end card block */
+
+  /* start add-account */
+  .add-account-name {
+    font-family: "Gilroy-Regular";
+    font-size: 24px !important;
+  }
+
+  .add-account-link {
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+  }
+
+  .username-heading,
+  .username-password-heading {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .username,
+  .usernamepassword {
+    font-family: "Gilroy-bold";
+    font-size: 14px !important;
+  }
+
+  /* end add-account */
+
+  /* start add assign category */
+
+  /* end add assign category */
+
+  /* start  add fields */
+
+  .add_fields_bottom_line {
+    border-bottom: 1px solid #2d597b;
+  }
+
+  .field-name {
+    font-family: "Gilroy-Medium";
+    font-size: 20px !important;
+  }
+
+  /* end fields */
+
+  /* add new field */
+  .add-new-text {
+    font-family: "Gilroy-bold";
+    font-size: 18px !important;
+  }
+
+  /* start new field */
+
+  /* edit start */
+  .add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 20px !important;
+  }
+  /* edit end */
+
+  /* password start  */
+
+  .account-heading {
+    font-family: "Gilroy-bold";
+    font-size: 22px !important;
+  }
+
+  .account-text {
+    font-family: "Gilroy-Regular";
+    font-size: 16px !important;
+  }
+
+  /* password end  */
+
+  .password-heading-text {
+    font-family: "Gilroy-bold";
+    font-size: 20px !important;
+  }
+
+  .password-text {
+    font-family: "Gilroy-Regular";
+    font-size: 16px !important;
+  }
+
+  /* start select */
+
+  .select-text {
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+  }
+
+  /* end select */
+
+  /* start web accounts */
+
+  .web-heading {
+    font-family: "Gilroy-bold";
+    font-size: 18px !important;
+  }
+
+  /* end web accounts */
+
+  .modal-add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 20px !important;
+  }
+}
+
+@media (min-width: 1900px) {
+  .modal .modal-dialog-aside {
+    width: 350px !important;
+    max-width: 80% !important;
+    height: 100% !important;
+    margin: 0;
+    transform: translate(0);
+    transition: transform 0.2s;
+    z-index: inherit;
+  }
+
+  /* start card block */
+
+  .modal-header {
+    padding: 0.9375em 0.9375em;
+    background-color: #084779;
+    -webkit-border-top-left-radius: 1.5em;
+    -webkit-border-top-right-radius: 1.5em;
+    -moz-border-radius-top-left: 1.5em;
+    -moz-border-radius-top-right: 1.5em;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    width: 100%;
+    border: 0px solid #084779;
+    padding: 18px 20px;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-size: 1.5em !important;
+    font-family: "Gilroy-Medium";
+  }
+
+  .bank-name {
+    font-family: "Gilroy-Regular";
+    font-size: 24px !important;
+  }
+
+  .card-number {
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+  }
+
+  .valid-from,
+  .valid-to {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .valid-date {
+    font-family: "Gilroy-bold";
+    font-size: 14px !important;
+  }
+
+  .pin-text {
+    font-family: "Gilroy-Regular";
+    font-size: 12px;
+  }
+
+  .cvv-text {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .card-user-name {
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+  }
+
+  .card-details-steps-name {
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+  }
+
+  /* end card block */
+
+  /* start add-account */
+  .add-account-name {
+    font-family: "Gilroy-Regular";
+    font-size: 24px !important;
+  }
+
+  .add-account-link {
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+  }
+
+  .username-heading,
+  .username-password-heading {
+    font-family: "Gilroy-Regular";
+    font-size: 12px !important;
+  }
+
+  .username,
+  .usernamepassword {
+    font-family: "Gilroy-bold";
+    font-size: 14px !important;
+  }
+
+  /* end add-account */
+
+  /* start add assign category */
+
+  /* end add assign category */
+
+  /* start  add fields */
+
+  .add_fields_bottom_line {
+    border-bottom: 1px solid #2d597b;
+  }
+
+  .field-name {
+    font-family: "Gilroy-Medium";
+    font-size: 20px !important;
+  }
+
+  /* end fields */
+
+  /* add new field */
+  .add-new-text {
+    font-family: "Gilroy-bold";
+    font-size: 18px !important;
+  }
+
+  /* start new field */
+
+  /* edit start */
+  .add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 20px !important;
+  }
+  /* edit end */
+
+  /* password start  */
+
+  .account-heading {
+    font-family: "Gilroy-bold";
+    font-size: 22px !important;
+  }
+
+  .account-text {
+    font-family: "Gilroy-Regular";
+    font-size: 16px !important;
+  }
+
+  /* password end  */
+
+  .password-heading-text {
+    font-family: "Gilroy-bold";
+    font-size: 18px !important;
+  }
+
+  .password-text {
+    font-family: "Gilroy-Regular";
+    font-size: 16px !important;
+  }
+
+  /* start select */
+
+  .select-text {
+    font-family: "Gilroy-bold";
+    font-size: 16px !important;
+  }
+
+  /* end select */
+
+  /* start web accounts */
+
+  .web-heading {
+    font-family: "Gilroy-bold";
+    font-size: 18px !important;
+  }
+
+  .modal-add-password-text {
+    font-family: "Gilroy-Medium";
+    font-size: 20px !important;
+  }
+  /* end web accounts */
+}
